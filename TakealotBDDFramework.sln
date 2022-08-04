@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakealotBDDAutomationFramework", "eftsureBDDAutomationFramework\TakealotBDDAutomationFramework.csproj", "{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebsiteAutomation", "WebsiteAutomation", "{66896B06-DCC4-4915-85E9-3D896FDC478E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		API-DEV|Any CPU = API-DEV|Any CPU
+		API-SANDBOX|Any CPU = API-SANDBOX|Any CPU
+		eftsure-dev|Any CPU = eftsure-dev|Any CPU
+		eftsure-qa|Any CPU = eftsure-qa|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.API-DEV|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.API-SANDBOX|Any CPU.ActiveCfg = Release|Any CPU
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.API-SANDBOX|Any CPU.Build.0 = Release|Any CPU
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.eftsure-dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.eftsure-qa|Any CPU.ActiveCfg = Release|Any CPU
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67C2D967-6C16-469A-96BC-76DAAE7FFFDD} = {66896B06-DCC4-4915-85E9-3D896FDC478E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2859A5A4-8347-4124-9A0E-9C08811F3FB7}
+	EndGlobalSection
+EndGlobal
